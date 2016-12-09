@@ -14,6 +14,11 @@ Vue.use(VueTextFilters)
 {{{ text | emojiSoftbankToUnified | safeAllEntityEncode | sbEmotions | transLinebreak }}}
 ```
 
+如果需要使用emojiUnifiedToHtml，需要单独引入css样式
+```
+import 'emoji/lib/emoji.css'
+```
+
 # features
 
 目前支持 'emoji', 'sbEmotions', 'htmlEntity', 'linebreak'  

@@ -10,7 +10,7 @@ export let emojiDocomoToUnified = (text) => {
   return emoji.docomoToUnified(text)
 }
 export let emojiKddiToUnified = (text) => {
-  return emoji.unifiedToHTML(text)
+  return emoji.kddiToUnified(text)
 }
 export let emojiGoogleToUnified = (text) => {
   return emoji.googleToUnified(text)
