@@ -1,4 +1,4 @@
-import WxEmotions from 'wechat-square-bracket-emotions'
+import { WxEmotions } from 'wechat-square-bracket-emotions'
 var WE = new WxEmotions()
 
 export let sbEmotions = (message) => {

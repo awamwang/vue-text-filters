@@ -33,7 +33,7 @@ const filtersInstall = function (Vue, options) {
 let Vue
 
 // init TextFilters
-var TextFilters = {}
+let TextFilters = {}
 
 /* Installation */
 
@@ -52,7 +52,6 @@ TextFilters.install = function (externalVue, options = {}) {
   }
 
   Vue = externalVue
-
   filtersInstall(Vue, options)
   TextFilters.installed = true
 }

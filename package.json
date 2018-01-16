@@ -1,6 +1,6 @@
 {
   "name": "vue-text-filters",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "vue text filters, handle some code like wx-emotions/softbank-emoji/...",
   "main": "./dist/index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "emoji": "^0.3.2",
     "html-entities": "^1.2.0",
     "qq-wechat-emotion-parser": "^1.0.2",
-    "wechat-square-bracket-emotions": "^0.0.5"
+    "wechat-square-bracket-emotions": "^1.0.5"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
