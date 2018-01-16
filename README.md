@@ -1,6 +1,6 @@
 # getting started
 
-> vue-text-filters 以Vue（1.0）插件的形式提供一系列处理html文本的filter
+> vue-text-filters 以Vue（1.0/2.0）插件的形式提供一系列处理html文本的filter
 
 安装
 ```
