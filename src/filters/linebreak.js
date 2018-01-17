@@ -1,6 +1,10 @@
 const linebreakRegEx = /(\r\n|\n)/g
 
 export let transLinebreak = (message) => {
+  if (!message || !message.length) {
+    return ''
+  }
+
   let newMessage = ''
   message.replace(linebreakRegEx, '\n')
   while (message) {

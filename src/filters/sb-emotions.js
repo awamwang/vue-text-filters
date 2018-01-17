@@ -2,6 +2,10 @@ import { WxEmotions } from 'wechat-square-bracket-emotions'
 var WE = new WxEmotions()
 
 export let sbEmotions = (message) => {
+  if (!message || !message.length) {
+    return ''
+  }
+
   let newMessage = ''
   while (message) {
     if (WxEmotions.hasEmotionsPattern(message)) {

@@ -1,6 +1,6 @@
 {
   "name": "vue-text-filters",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "vue text filters, handle some code like wx-emotions/softbank-emoji/...",
   "main": "./dist/index.js",
   "scripts": {
